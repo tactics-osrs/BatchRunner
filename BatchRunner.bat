@@ -53,6 +53,3 @@ echo.
 :: Return to the menu
 pause
 goto menu
-Return to the menu
-pause
-goto menu
