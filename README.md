@@ -4,7 +4,7 @@ This repository contains a Batch script that allows you to run .bat files from a
 
 ## Description
 
-The script provides a menu for the user to select and run a .bat file from a specified directory. The default directory is set to "C:\Users\%USERPROFILE%\Desktop\Batch". If the directory does not exist, the script will prompt the user to input the location of their "Batch" folder and use the input to change the directory.
+The script provides a menu for the user to select and run a .bat file from a specified directory. The default directory is set to the "Batch" folder on the current user's desktop (`%USERPROFILE%\Desktop\Batch`). If the directory does not exist, the script will prompt the user to input the location of their "Batch" folder and use the input to change the directory.
 
 ## Usage
 
@@ -22,5 +22,4 @@ The user must name their batch files folder "Batch" unless they change it in the
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
 
