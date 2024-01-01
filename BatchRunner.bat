@@ -2,7 +2,7 @@
 setlocal EnableDelayedExpansion
 
 :: Set the directory to the Batch folder on the user's desktop
-set "dir=C:\Users\steph\Desktop\Tools\Batch"
+set "dir=%USERPROFILE%\Desktop\Batch"
 
 :: Check if the directory exists, if not, prompt the user for the location
 if not exist "!dir!" (
@@ -51,5 +51,8 @@ echo !file%num%! has been successfully opened.
 echo.
 
 :: Return to the menu
+pause
+goto menu
+Return to the menu
 pause
 goto menu
