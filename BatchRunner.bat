@@ -1,3 +1,8 @@
+REM Script Name: Batch Runner
+REM Date Written: December 30, 2023
+REM Written By: Tactics
+
+
 @echo off
 setlocal EnableDelayedExpansion
 
